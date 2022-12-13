@@ -1,0 +1,695 @@
+{
+  "id": "90b1d426-6400-4391-8346-84f4ae92bba1",
+  "version": "2.0",
+  "name": "unicor",
+  "url": "http://powercampus.unicordoba.edu.co",
+  "tests": [{
+    "id": "a28d6d5e-e531-47bd-a6a8-7eec88c97d20",
+    "name": "SuccessLogin",
+    "commands": [{
+      "id": "9ccc5fd2-185d-4938-a27d-a83cd8cc567c",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a6ab4d9-1b8a-4b47-ac02-cff9efa42c86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d63733ee-c290-44df-bf21-9c67f717fdf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName",
+      "targets": [
+        ["id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName", "id"],
+        ["name=ctl00$ucUserLogin$lvLoginUser$ucLoginUser$lcLoginUser$UserName", "name"],
+        ["css=#ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName", "css:finder"],
+        ["xpath=//input[@id='ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName']", "xpath:attributes"],
+        ["xpath=//div[@id='loginDiv']/input", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b886cd17-45b6-400d-b338-c08f12795ba9",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName",
+      "targets": [
+        ["id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName", "id"],
+        ["name=ctl00$ucUserLogin$lvLoginUser$ucLoginUser$lcLoginUser$UserName", "name"],
+        ["css=#ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName", "css:finder"],
+        ["xpath=//input[@id='ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_UserName']", "xpath:attributes"],
+        ["xpath=//div[@id='loginDiv']/input", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "YHernándezMartínez"
+    }, {
+      "id": "a2aacac7-df48-4a70-af7f-0970f05ad75e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_Password",
+      "targets": [
+        ["id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_Password", "id"],
+        ["name=ctl00$ucUserLogin$lvLoginUser$ucLoginUser$lcLoginUser$Password", "name"],
+        ["css=#ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_Password", "css:finder"],
+        ["xpath=//input[@id='ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_Password']", "xpath:attributes"],
+        ["xpath=//div[@id='loginDiv']/input[2]", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]/input[2]", "xpath:position"]
+      ],
+      "value": "Yurlehdez-1998"
+    }, {
+      "id": "3bdf02e7-4fce-40fe-9691-c2708a9dd63b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_LoginButton",
+      "targets": [
+        ["id=ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_LoginButton", "id"],
+        ["name=ctl00$ucUserLogin$lvLoginUser$ucLoginUser$lcLoginUser$LoginButton", "name"],
+        ["css=#ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_LoginButton", "css:finder"],
+        ["xpath=//input[@id='ctl00_ucUserLogin_lvLoginUser_ucLoginUser_lcLoginUser_LoginButton']", "xpath:attributes"],
+        ["xpath=//div[@id='loginDiv']/input[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bb06ef17-b344-4cc2-947b-78a55862469d",
+    "name": "Ver_Pensum",
+    "commands": [{
+      "id": "df9c0b2c-0a18-4b36-8969-fbaa47c5a227",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0182ec6-be51-49ec-9cb6-7c023d30f342",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d490907-1d78-4e41-b000-f9c0a28025da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clases",
+      "targets": [
+        ["linkText=Clases", "linkText"],
+        ["css=.menuparent:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Clases')]", "xpath:link"],
+        ["xpath=//ul[@id='tabNav']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Records/ClassesHome.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d44c39-5dd1-4b19-961a-690ae2f3fc51",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Matrículas",
+      "targets": [
+        ["linkText=Matrículas", "linkText"],
+        ["css=.menuparent:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Matrículas')]", "xpath:link"],
+        ["xpath=//ul[@id='tabNav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/RegistrationHome.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Matrículas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6810b3a-544b-4ef9-8388-a38da01aeb69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cursos Tradicionales",
+      "targets": [
+        ["linkText=Cursos Tradicionales", "linkText"],
+        ["css=#subNavDefault > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cursos Tradicionales')]", "xpath:link"],
+        ["xpath=//ul[@id='subNavDefault']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/Registration.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cursos Tradicionales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6792f0e4-4adb-408b-a5a0-465ce5cf9905",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1",
+      "targets": [
+        ["id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "id"],
+        ["css=#ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plan Académico')])[2]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_RelatedLinksRepeater_ctl02_HyperLink1']", "xpath:attributes"],
+        ["xpath=//div[@id='relatedLinks']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Records/AcademicPlan.aspx')])[2]", "xpath:href"],
+        ["xpath=//td/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c05f5c-d21d-4e18-a40c-a8dcfa6075ff",
+      "comment": "",
+      "command": "open",
+      "target": "id=ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewt1",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b89e5dd5-c776-4f80-8bba-d9773e2913ae",
+    "name": "Añadir_materias",
+    "commands": [{
+      "id": "4c2b7283-78e8-4c5b-9b00-56548cf9ce2c",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f630c56-e961-4f7a-a3c7-4cb47df45158",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed229232-0a40-4660-8d91-1f874f5e462d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#subNavDefault > li:nth-child(1) > a",
+      "targets": [
+        ["css=#subNavDefault > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Carrito')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='subNavDefault']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/ShoppingCart.aspx')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1282c6d8-7d89-4c4d-9503-a9cb65c59700",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1",
+      "targets": [
+        ["id=ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1", "id"],
+        ["linkText=Buscar Cursos", "linkText"],
+        ["css=#ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Buscar Cursos')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1']", "xpath:attributes"],
+        ["xpath=//td[@id='content']/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Search/SectionSearch.aspx?loadcriteria=1')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buscar Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e45062c9-adee-409b-8f20-692270972f07",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1",
+      "targets": [
+        ["id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "id"],
+        ["linkText=Plan Académico", "linkText"],
+        ["css=#ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plan Académico')])[2]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_RelatedLinksRepeater_ctl02_HyperLink1']", "xpath:attributes"],
+        ["xpath=//div[@id='relatedLinks']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Records/AcademicPlan.aspx?')]", "xpath:href"],
+        ["xpath=//td/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af9f4c50-524f-43cd-a4d3-ebd61d5a31b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.optionsList > li:nth-child(1)",
+      "targets": [
+        ["css=.optionsList > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='relatedLinks']/ul/li", "xpath:idRelative"],
+        ["xpath=//td/div[3]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Inscripción')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a94c70f-9d69-431a-8527-2bf78fa38d84",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_RelatedLinksRepeater_ctl01_HyperLink1",
+      "targets": [
+        ["id=ctl00_RelatedLinksRepeater_ctl01_HyperLink1", "id"],
+        ["linkText=Inscripción", "linkText"],
+        ["css=#ctl00_RelatedLinksRepeater_ctl01_HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Inscripción')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_RelatedLinksRepeater_ctl01_HyperLink1']", "xpath:attributes"],
+        ["xpath=//div[@id='relatedLinks']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/Registration.aspx?')]", "xpath:href"],
+        ["xpath=//td/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Inscripción')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdafbfc7-4774-4c35-9907-88f7a4b09c3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1",
+      "targets": [
+        ["id=ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "id"],
+        ["css=#ctl00_RelatedLinksRepeater_ctl02_HyperLink1", "css:finder"],
+        ["xpath=(//a[contains(text(),'Plan Académico')])[2]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_RelatedLinksRepeater_ctl02_HyperLink1']", "xpath:attributes"],
+        ["xpath=//div[@id='relatedLinks']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Records/AcademicPlan.aspx')])[2]", "xpath:href"],
+        ["xpath=//td/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b098d92-3842-4389-9a53-8112022eb48e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewt1",
+      "targets": [
+        ["id=ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewt1", "id"],
+        ["linkText=PREG/Ingenier de Sistemas", "linkText"],
+        ["css=#ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewt1", "css:finder"],
+        ["xpath=//a[contains(text(),'PREG/Ingenier de Sistemas')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewt1']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_mainContentZone_AvailableAcademicPlansTree_PlansUserControl_AvailablePlansTreeViewn0Nodes']/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$mainContentZone$AvailableAcademicPlansTree$PlansUserControl$AvailablePlansTreeView','s2004||SEM1||UNVDIS\\\\PREG||1605')\")]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PREG/Ingenier de Sistemas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d04880-5385-401a-b766-f41e7c10b583",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_AcademicPlanViewerControl_ucAcademicPlanViewer_PlanViewerGridView_ctl02_DisciplineGridView_ctl02_ClassificationsGridView_ctl02_EventsGridView_ctl07_CatalogSearchLink",
+      "targets": [
+        ["id=ctl00_mainContentZone_AcademicPlanViewerControl_ucAcademicPlanViewer_PlanViewerGridView_ctl02_DisciplineGridView_ctl02_ClassificationsGridView_ctl02_EventsGridView_ctl07_CatalogSearchLink", "id"],
+        ["linkText=411006", "linkText"],
+        ["css=#ctl00_mainContentZone_AcademicPlanViewerControl_ucAcademicPlanViewer_PlanViewerGridView_ctl02_DisciplineGridView_ctl02_ClassificationsGridView_ctl02_EventsGridView_ctl07_CatalogSearchLink", "css:finder"],
+        ["xpath=//a[contains(text(),'411006')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_mainContentZone_AcademicPlanViewerControl_ucAcademicPlanViewer_PlanViewerGridView_ctl02_DisciplineGridView_ctl02_ClassificationsGridView_ctl02_EventsGridView_ctl07_CatalogSearchLink']", "xpath:attributes"],
+        ["xpath=//table[@id='ctl00_mainContentZone_AcademicPlanViewerControl_ucAcademicPlanViewer_PlanViewerGridView_ctl02_DisciplineGridView_ctl02_ClassificationsGridView_ctl02_EventsGridView']/tbody/tr[7]/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Search/CatalogDetails.aspx?coursecode=411006')]", "xpath:href"],
+        ["xpath=//tr[7]/td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'411006')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0c9e04ad-b6df-44ed-a45c-58bcd1110b9c",
+    "name": "Realizar_inscripcion",
+    "commands": [{
+      "id": "90e722be-a554-40ac-b3dd-e967b709c39e",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e052ba3d-35ec-4a69-9189-519be7d49ae0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "652f3d81-7b70-43c0-a58c-cc0679b37c82",
+      "comment": "",
+      "command": "click",
+      "target": "css=#subNavDefault > li:nth-child(1) > a",
+      "targets": [
+        ["css=#subNavDefault > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Carrito')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='subNavDefault']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/ShoppingCart.aspx')]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce10b66-d0ad-4adb-be6f-b6db9f8ca1cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1",
+      "targets": [
+        ["id=ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1", "id"],
+        ["linkText=Buscar Cursos", "linkText"],
+        ["css=#ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Buscar Cursos')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_mainContentZone_ShoppingCartControl_rptrCartItems_riEmptyData_HyperLink1']", "xpath:attributes"],
+        ["xpath=//td[@id='content']/div/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Search/SectionSearch.aspx?loadcriteria=1')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Buscar Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68c8931-1d24-4474-9575-5f229cabb741",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_ucCriteria_rbTraditional",
+      "targets": [
+        ["id=ctl00_mainContentZone_ucCriteria_rbTraditional", "id"],
+        ["name=ctl00$mainContentZone$ucCriteria$registrationtype", "name"],
+        ["css=#ctl00_mainContentZone_ucCriteria_rbTraditional", "css:finder"],
+        ["xpath=//input[@id='ctl00_mainContentZone_ucCriteria_rbTraditional']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_mainContentZone_ucCriteria_pnlCriteria']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00e29d3a-c836-4f22-a7f8-25b4ff86c6f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_ucCriteria_txtKeywords",
+      "targets": [
+        ["id=ctl00_mainContentZone_ucCriteria_txtKeywords", "id"],
+        ["name=ctl00$mainContentZone$ucCriteria$txtKeywords", "name"],
+        ["css=#ctl00_mainContentZone_ucCriteria_txtKeywords", "css:finder"],
+        ["xpath=//input[@id='ctl00_mainContentZone_ucCriteria_txtKeywords']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_mainContentZone_ucCriteria_pnlCriteria']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9e1f077-e20b-405e-bda0-4ee3866f0e06",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_mainContentZone_ucCriteria_txtKeywords",
+      "targets": [
+        ["id=ctl00_mainContentZone_ucCriteria_txtKeywords", "id"],
+        ["name=ctl00$mainContentZone$ucCriteria$txtKeywords", "name"],
+        ["css=#ctl00_mainContentZone_ucCriteria_txtKeywords", "css:finder"],
+        ["xpath=//input[@id='ctl00_mainContentZone_ucCriteria_txtKeywords']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_mainContentZone_ucCriteria_pnlCriteria']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "ingenieria"
+    }, {
+      "id": "94380c47-9c60-46bb-b2e8-25ad43de472a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_ucCriteria_btnSearch",
+      "targets": [
+        ["id=ctl00_mainContentZone_ucCriteria_btnSearch", "id"],
+        ["name=ctl00$mainContentZone$ucCriteria$btnSearch", "name"],
+        ["css=#ctl00_mainContentZone_ucCriteria_btnSearch", "css:finder"],
+        ["xpath=//input[@id='ctl00_mainContentZone_ucCriteria_btnSearch']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_mainContentZone_ucCriteria_pnlCriteria']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67269dcf-a604-4a20-bd6e-ecc26240b24a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=406171/Clase/G1",
+      "targets": [
+        ["linkText=406171/Clase/G1", "linkText"],
+        ["css=tr:nth-child(6) a", "css:finder"],
+        ["xpath=//a[contains(text(),'406171/Clase/G1')]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"OpenWin('', 'sectiondetail')\"])[5]", "xpath:attributes"],
+        ["xpath=//td[@id='content']/table/tbody/tr[6]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://powercampus.unicordoba.edu.co//search/sectiondetailsdialog.aspx?id=188575']", "xpath:href"],
+        ["xpath=//tr[6]/td[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2963",
+      "windowTimeout": 2000
+    }]
+  }, {
+    "id": "dadd7c49-74a0-4519-af51-528dd8cd6944",
+    "name": "Ver_Horario",
+    "commands": [{
+      "id": "dd0a98ed-591b-4992-9961-87038410b243",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ada8896-1adf-4791-85fd-fe28dbadaf07",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26acfea3-e300-458a-a74e-1bce7a28f9de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clases",
+      "targets": [
+        ["linkText=Clases", "linkText"],
+        ["css=.menuparent:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Clases')]", "xpath:link"],
+        ["xpath=//ul[@id='tabNav']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Records/ClassesHome.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb8779e6-885f-4d87-80ee-6d06f302458a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Horario",
+      "targets": [
+        ["linkText=Horario", "linkText"],
+        ["css=#subNavDefault > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Horario')]", "xpath:link"],
+        ["xpath=//ul[@id='subNavDefault']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Reportes/RegistroAcademico/HorarioEstudiante/HomeHorarioEstudiante.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Horario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c8e977-ac75-406b-aa88-daea69ce62a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_txlinkHorarioPeriodoActual",
+      "targets": [
+        ["id=ctl00_mainContentZone_txlinkHorarioPeriodoActual", "id"],
+        ["linkText=Click aquí para ver el horario del periodo actual", "linkText"],
+        ["css=#ctl00_mainContentZone_txlinkHorarioPeriodoActual", "css:finder"],
+        ["xpath=//a[contains(text(),'Click aquí para ver el horario del periodo actual')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_mainContentZone_txlinkHorarioPeriodoActual']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentDiv']/center/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../../../UniversidadDeCordoba/Administracion/Parametrizacion/Reportes/ReportesRegistroAcademico.aspx?path=Horario/HorarioEstudiantePeriodoActual\n&prPersonId=76032')]", "xpath:href"],
+        ["xpath=//center/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Click aquí para ver el horario del periodo actual')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2762",
+      "windowTimeout": 2000
+    }, {
+      "id": "a519eaa9-bd75-40fe-9da2-1040f5ba389c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2762}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44feca6d-1857-426c-8beb-168ee8b88d9e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Adef62271f4eb4590b5533434a0dd020b46c",
+      "targets": [
+        ["css=.Adef62271f4eb4590b5533434a0dd020b46c", "css:finder"],
+        ["xpath=//td[@id='P41892e32a5d147d1ac09a4eff11b8e3a_1_oReportCell']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[7]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55253563-65b2-46c1-bc2d-a13fad74de9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.Adef62271f4eb4590b5533434a0dd020b46c",
+      "targets": [
+        ["css=.Adef62271f4eb4590b5533434a0dd020b46c", "css:finder"],
+        ["xpath=//td[@id='P41892e32a5d147d1ac09a4eff11b8e3a_1_oReportCell']/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[7]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "36336fe5-c59e-4620-9629-98c55eb134fa",
+    "name": "Cancelar_cursos",
+    "commands": [{
+      "id": "c6607f03-ea6b-4476-b619-5a27ecac627c",
+      "comment": "",
+      "command": "open",
+      "target": "/Home.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9280bc1-a6d9-4756-ab4e-15cb1058fa8e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b9dfd11-0da8-4cd4-bf6d-f4ded42f55db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clases",
+      "targets": [
+        ["linkText=Clases", "linkText"],
+        ["css=.menuparent:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Clases')]", "xpath:link"],
+        ["xpath=//ul[@id='tabNav']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Records/ClassesHome.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72361f68-3b28-46a6-9cab-04ee27d61658",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Matrículas",
+      "targets": [
+        ["linkText=Matrículas", "linkText"],
+        ["css=.menuparent:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Matrículas')]", "xpath:link"],
+        ["xpath=//ul[@id='tabNav']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/RegistrationHome.aspx')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Matrículas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc09f41c-443b-4278-ab87-2b10dd8ea9f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cancelación de Cursos",
+      "targets": [
+        ["linkText=Cancelación de Cursos", "linkText"],
+        ["css=#subNavDefault > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancelación de Cursos')]", "xpath:link"],
+        ["xpath=//ul[@id='subNavDefault']/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Registration/Cancelacioncursos.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancelación de Cursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f011edba-6e19-4606-833b-d4ddfae3ddc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_mainContentZone_BtnVolante",
+      "targets": [
+        ["id=ctl00_mainContentZone_BtnVolante", "id"],
+        ["name=ctl00$mainContentZone$BtnVolante", "name"],
+        ["css=#ctl00_mainContentZone_BtnVolante", "css:finder"],
+        ["xpath=//input[@id='ctl00_mainContentZone_BtnVolante']", "xpath:attributes"],
+        ["xpath=//td[@id='content']/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1009",
+      "windowTimeout": 2000
+    }, {
+      "id": "37f3bb5a-656d-4186-8527-db7d71793089",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e3a574f-726b-4b39-8bf4-7ea57edb1fe4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1009}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84267819-e759-4827-b9ed-9737651b446c",
+      "comment": "",
+      "command": "click",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//form[@id='form_login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9073675b-9d3e-46ff-9416-bc498f37eb20",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//form[@id='form_login']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "YHernándezMartínez"
+    }, {
+      "id": "344a31b7-5dda-4604-b79a-aa2ab1c51403",
+      "comment": "",
+      "command": "type",
+      "target": "id=clave",
+      "targets": [
+        ["id=clave", "id"],
+        ["name=clave", "name"],
+        ["css=#clave", "css:finder"],
+        ["xpath=//input[@id='clave']", "xpath:attributes"],
+        ["xpath=//form[@id='form_login']/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "Yurlehdez-1998"
+    }, {
+      "id": "e75e7225-69c3-474d-bb50-17e33b325ddb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.left > font > font",
+      "targets": [
+        ["css=.left > font > font", "css:finder"],
+        ["xpath=//button[@id='send']/i/font/font", "xpath:idRelative"],
+        ["xpath=//button/i/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83d1f95d-f008-4ee5-a474-168ef68f06cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > b > font > font",
+      "targets": [
+        ["css=li:nth-child(3) > b > font > font", "css:finder"],
+        ["xpath=//div[@id='validations']/div/div[2]/div/div/ul/li[3]/b/font/font", "xpath:idRelative"],
+        ["xpath=//li[3]/b/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3252d4a0-431d-40ce-997a-dfc9b1daaf61",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a28d6d5e-e531-47bd-a6a8-7eec88c97d20"]
+  }],
+  "urls": ["http://powercampus.unicordoba.edu.co/"],
+  "plugins": []
+}
